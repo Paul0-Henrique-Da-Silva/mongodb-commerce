@@ -4,7 +4,7 @@ db.produtos.updateMany(
     );
 
 db.produtos.updateOne(
-    { nome: "Bic Mac" },
+    { nome: "Big Mac" },
     { $inc: { "vendasPorDia.3": 60 } },
 );
 
